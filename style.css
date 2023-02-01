@@ -1,0 +1,111 @@
+*{
+    Padding: 0;
+    Margin: 0;
+    Border: box-size;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    Background: hsl(30, 38%, 92%);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    Background: #fff;
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 25px;
+    display: flexbox;
+}
+.row{
+    display: flex;
+    
+}
+.col-2 {
+    align-items: center;
+    display: inline-block;
+}
+#writing{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#crossedprice, #newprice{
+    display: inline-block;
+
+    align-items: center;
+
+}
+.col-2 img{
+    height: 500px;
+    width: 350px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.col-2 .price{
+    text-align: center;
+    word-spacing: 50px;
+}
+.btn{
+    margin: 5px 0;
+    margin-right: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    justify-content: center;
+    background: rgba(61,129,104,255);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s;
+    display: flex;
+}
+.btn img{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-right: 10px;
+}
+.col-2 p{
+    text-align: justify;
+    line-height: 1.8;
+    color: #555;
+}
+.btn:hover{
+    background-color: rgba(26,64,49,255);
+}
+.col-2 h4{
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #555;
+}
+.col-2 h2{
+    font-size: 36px;
+    font-family: 'Fraunces';
+    line-height: 1;
+}
+h4, h2, #crossedprice, #newprice, p{
+    margin-bottom: 20px;
+}
+#newprice{
+    color: rgba(61,129,104,255);
+}
+#crossedprice{
+    font-weight: 350;
+    color: #555;
+}
+@media only screen and (max-width: 450px) {
+    .col-2{
+        display: flex;
+    }
+}
